@@ -1,7 +1,7 @@
 #include "Game/game.h"
 #include "MainMenu/main_menu.h"
 
-int main(int argc, char **argv) {
+int main() {
     MainMenu().show();
     delete Config::getInstance();
     return 0;

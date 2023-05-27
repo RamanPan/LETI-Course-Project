@@ -73,7 +73,7 @@ void MainMenu::update() {
     pollEvents();
     options[selection_index]->setActive(true);
     title->update();
-    for (MenuEntry *entry : options) entry->update();
+    for (MenuEntry *entry: options) entry->update();
     animation->update();
 }
 
