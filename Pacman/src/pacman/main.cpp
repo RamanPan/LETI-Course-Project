@@ -4,5 +4,5 @@
 int main() {
     MainMenu().show();
     delete Config::getInstance();
-    return 0;
+    return 1;
 }
